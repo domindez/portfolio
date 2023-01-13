@@ -1,0 +1,28 @@
+@use 'variables';
+@use 'mixins';
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:monospace;
+  font-size: 16px;
+}
+
+body{
+  background-color: variables.$primaryColor;
+  @include mixins.centrate();
+  height: 100vh;
+}
+
+.btn {
+  padding: 20px;
+  cursor: pointer;
+  box-shadow: 2px 2px 0px #00000020;
+  background-color: variables.$primaryColor;
+  transition: border-radius 2s;
+  
+  &--active {
+    border-radius: 50%;
+  }
+}
