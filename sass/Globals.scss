@@ -10,7 +10,8 @@
 }
 
 body{
-  background-color: variables.$primaryColor;
+  background: rgb(13,68,94);
+  background: linear-gradient(90deg, rgba(13,68,94,1) 0%, rgba(33,86,112,1) 100%);
   @include mixins.centrate();
   height: 100vh;
 }
