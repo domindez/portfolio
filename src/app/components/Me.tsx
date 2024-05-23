@@ -14,7 +14,7 @@ const Me = () => {
         <h2>{'< web developer />'}</h2>
 
         <Link href='#' className='project-btn'>
-          <span className='project-btn'>Mis proyectos</span>
+          <span className='project-btn'>Mis trabajos</span>
         </Link>
       </div>
       <Image src='/img/daniel dominguez.jpg' alt='Daniel Domínguez desarrollador web' width={500} height={500} />

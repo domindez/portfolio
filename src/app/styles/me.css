@@ -23,17 +23,21 @@
 			text-decoration: none;
 			display: flex;
 			.project-btn {
-				border: 1px solid #2F3B53;
 				border-radius: 3px;
-				padding: 5px 10px;
+				padding: 7px 10px;
 				margin-top: 20px;
-				box-shadow: 2px 2px 0px #ff9a75;
-
-				color: #2F3B53;
+				box-shadow: 4px 4px 0px #ff9a75;
+				color: #fff;
 				transition: 0.2s ease-in-out;
+				background-color: #2F3B53;
+				font-weight: 700;
+				
 				&:hover {
-					background-color: #2F3B53;
-					color: white;
+					box-shadow: 2px 2px 0px #ff9a75;
+				}
+				
+				&:active {
+					box-shadow: 0px 0px 0px #ff9a75;
 				}
 			}
 		}
@@ -43,6 +47,5 @@
 		width: 280px;
 		height: auto;
 		border-radius: 20%;
-		transform: rotate(5deg);
 	}
 }

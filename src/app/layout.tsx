@@ -8,7 +8,7 @@ import { config } from '@fortawesome/fontawesome-svg-core'
 config.autoAddCss = false
 
 const inter = Inter({
-  weight: '400',
+  weight: ['400', '700'],
   subsets: ['latin'],
   display: 'swap'
 })

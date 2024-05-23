@@ -1,4 +1,4 @@
-import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faUpwork } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'next/link'
 import '../styles/social-media.css'
@@ -8,18 +8,18 @@ const SocialMedia = () => {
     <div className='social-media'>
       <ul>
         <li>
-          <Link href=''>
+          <Link href='https://github.com/domindez' target='_blank' rel='noreferrer'>
             <FontAwesomeIcon className='social-icon' icon={faGithub} />
           </Link>
         </li>
         <li>
-          <Link href=''>
+          <Link href='https://www.linkedin.com/in/domindez/' target='_blank' rel='noreferrer'>
             <FontAwesomeIcon className='social-icon' icon={faLinkedin} />
           </Link>
         </li>
         <li>
-          <Link href=''>
-            <FontAwesomeIcon className='social-icon' icon={faTwitter} />
+          <Link href='https://www.upwork.com/freelancers/~014f9e51a9a1e79437' target='_blank' rel='noreferrer'>
+            <FontAwesomeIcon className='social-icon' icon={faUpwork} />
           </Link>
         </li>
       </ul>
