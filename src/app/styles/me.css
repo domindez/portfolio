@@ -1,0 +1,48 @@
+.me {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+
+	.text-container {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		h1 {
+			font-size: 3em;
+			color: #2F3B53;
+		}
+
+		h2 {
+			font-size: 1.8em;
+			width: fit-content;
+			border-radius: 5px;
+			color: #2F3B53;
+		}
+
+		a {
+			text-decoration: none;
+			display: flex;
+			.project-btn {
+				border: 1px solid #2F3B53;
+				border-radius: 3px;
+				padding: 5px 10px;
+				margin-top: 20px;
+				box-shadow: 2px 2px 0px #ff9a75;
+
+				color: #2F3B53;
+				transition: 0.2s ease-in-out;
+				&:hover {
+					background-color: #2F3B53;
+					color: white;
+				}
+			}
+		}
+	}
+
+	img {
+		width: 280px;
+		height: auto;
+		border-radius: 20%;
+		transform: rotate(5deg);
+	}
+}

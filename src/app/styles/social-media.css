@@ -1,0 +1,14 @@
+.social-media {
+	ul {
+		list-style: none;
+		display: flex;
+		gap: 10px;
+		li {
+			.social-icon {
+				width: 25px;
+				color: #ff9a75;
+				cursor: pointer;
+			}
+		}
+	}
+}
