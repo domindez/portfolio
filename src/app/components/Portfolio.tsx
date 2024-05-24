@@ -12,7 +12,7 @@ const Portfolio = () => {
   }
 
   return (
-    <section className='portfolio'>
+    <section className='portfolio' id='portfolio'>
       <h3 className='section-title'>Portfolio</h3>
 
       <div className='project-list'>
@@ -32,7 +32,7 @@ const Portfolio = () => {
 
         <PortfolioProject
           name='Tombolator.com'
-          imgName='tombolator'
+          imgName='tombola'
           url='https://www.tombolator.com'
           text='Una plataforma de marketing para crear rifas y tómbolas'
         />
@@ -48,7 +48,7 @@ const Portfolio = () => {
 
             <PortfolioProject
               name='Hotel NCH'
-              imgName='nch'
+              imgName='hotel'
               url='https://www.hotelnch.com'
               text='La web del Hotel NCH, con su motor de reservas y sistema de fidelización.'
             />
