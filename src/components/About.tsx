@@ -6,7 +6,7 @@ const About = () => {
       <h3 className='section-title'>Sobre mí</h3>
 
       <p className='bio'>
-        ¡Hola! Soy Dani, desarrollador Full Stack y creador de Trivify.es y Barmanager.app. Disfruto dándole forma a mis propias ideas y convirtiéndolas en servicios útiles para los demás. Ayudo a empresas a desarrollar sus proyectos y superar sus desafíos tecnológicos. La automatización es la clave.
+        ¡Hola! Soy Dani, desarrollador Full Stack, creador de Trivify.es y Barmanager.app. Disfruto dándole forma a mis propias ideas y convirtiéndolas en servicios útiles para los demás. Ayudo a empresas a desarrollar sus proyectos y superar sus desafíos tecnológicos.
       </p>
 
       <div className='stacks-container'>
