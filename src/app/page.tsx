@@ -1,5 +1,5 @@
 import Me from '@/components/Me'
-import './styles/main-page.css'
+import '../styles/main-page.css'
 import NavBar from '../components/NavBar'
 import About from '../components/About'
 import Portfolio from '../components/Portfolio'
