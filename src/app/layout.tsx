@@ -14,7 +14,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://danieldominguez.dev'),
+  metadataBase: new URL('https://domindez.com'),
   title: 'Daniel Domínguez - Full Stack Developer',
   description: '¡Hola! Soy Dani, desarrollador Full Stack y creador de Trivify.es y Barmanager.app. Disfruto dándole forma a mis propias ideas y convirtiéndolas en servicios útiles para los demás. Ayudo a empresas a desarrollar sus proyectos y superar sus desafíos tecnológicos. La automatización es la clave.',
   keywords: ['Full Stack Developer', 'Desarrollador Web', 'Node.js', 'React', 'Next.js', 'JavaScript', 'TypeScript', 'Desarrollo de Software', 'Automatización', 'Tecnología'],
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/img/daniel dominguez.jpg',
+        url: '/img/daniel%20dominguez.jpg',
         width: 600,
         height: 600,
         alt: 'Daniel Domínguez - Full Stack Developer'
