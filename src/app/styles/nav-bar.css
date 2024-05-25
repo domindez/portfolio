@@ -5,10 +5,10 @@
 		gap: 30px;
 		li{
 			a{
+				position: relative;
 				text-decoration: none;
 				color: #2F3B53;
-				font-weight: 700;
-				
+				font-weight: 700;		
 			}
 		}
 	}

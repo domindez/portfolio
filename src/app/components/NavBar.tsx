@@ -6,16 +6,13 @@ const NavBar = () => {
     <nav className='top-nav-bar'>
       <ul>
         <li>
-          <Link href='#'>Inicio</Link>
+          <Link href='#me'>Inicio</Link>
         </li>
         <li>
-          <Link href='#'>Sobre mí</Link>
+          <Link href='#about'>Sobre mí</Link>
         </li>
         <li>
           <Link href='#portfolio'>Proyectos</Link>
-        </li>
-        <li>
-          <Link href='#'>Contacto</Link>
         </li>
       </ul>
     </nav>

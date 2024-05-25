@@ -1,8 +1,13 @@
+import { faComment } from '@fortawesome/free-regular-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import '../styles/contact.css'
+import Link from 'next/link'
+
 const Contact = () => {
   return (
-    <section>
-      <h3 className='section-title'>Contacto</h3>
-    </section>
+    <Link href='mailto:hola@domindez.com' className='contact'>
+      <FontAwesomeIcon icon={faComment} /> Contrátame
+    </Link>
   )
 }
 export default Contact

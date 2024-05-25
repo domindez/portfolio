@@ -5,15 +5,11 @@ import SocialMedia from './SocialMedia'
 
 const Me = () => {
   return (
-    <section className='me'>
+    <section className='me' id='me'>
 
       <div className='text-container'>
         <h1>Daniel Domínguez</h1>
-        <h2>{'< web developer />'}</h2>
-
-        {/* <Link href='#' className='project-btn'>
-          <span className='project-btn'>Mis trabajos</span>
-        </Link> */}
+        <h2>{'< Full Stack Developer />'}</h2>
         <SocialMedia />
       </div>
       <Image src='/img/daniel dominguez.jpg' alt='Daniel Domínguez desarrollador web' width={500} height={500} />

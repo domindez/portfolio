@@ -1,11 +1,30 @@
+import '../styles/about.css'
+
 const About = () => {
   return (
-    <section>
+    <section id='about'>
       <h3 className='section-title'>Sobre mí</h3>
 
-      <p>
-        Lorem fistrum diodeno sexuarl fistro al ataquerl. Benemeritaar va usté muy cargadoo sexuarl diodenoo al ataquerl papaar papaar. Pupita apetecan fistro diodeno por la gloria de mi madre diodenoo ese hombree a peich fistro te voy a borrar el cerito ese que llega. Se calle ustée pupita por la gloria de mi madre ahorarr. Ahorarr diodeno a gramenawer pecador amatomaa. Jarl amatomaa jarl papaar papaar diodeno jarl jarl a gramenawer quietooor fistro ahorarr. Sexuarl sexuarl te va a hasé pupitaa al ataquerl ese pedazo de está la cosa muy malar amatomaa ese que llega torpedo.
+      <p className='bio'>
+        ¡Hola! Soy Dani, desarrollador Full Stack y creador de Trivify.es y Barmanager.app. Disfruto dándole forma a mis propias ideas y convirtiéndolas en servicios útiles para los demás. Ayudo a empresas a desarrollar sus proyectos y superar sus desafíos tecnológicos. La automatización es la clave.
       </p>
+
+      <div className='stacks-container'>
+        <span>react</span>
+        <span>nextjs</span>
+        <span>nodejs</span>
+        <span>express</span>
+        <span>azure</span>
+        <span>firebase</span>
+        <span>mongodb</span>
+        <span>git</span>
+        <span>javascript</span>
+        <span>typescript</span>
+        <span>css</span>
+        <span>sass</span>
+        <span>electron</span>
+        <span>wordpress</span>
+      </div>
 
     </section>
   )
