@@ -1,7 +1,6 @@
-/* eslint-disable camelcase */
 import Image from 'next/image'
 import '../styles/me.css'
-import SocialMedia from './SocialMedia'
+import Link from 'next/link'
 
 const Me = () => {
   return (
@@ -10,7 +9,7 @@ const Me = () => {
       <div className='text-container'>
         <h1>Daniel Domínguez</h1>
         <h2>{'< Full Stack Developer />'}</h2>
-        <SocialMedia />
+        <Link className='contact-btn' href='mailto:hola@domindez.com'>Contrátame</Link>
       </div>
       <Image src='/img/daniel dominguez.jpg' alt='Daniel Domínguez desarrollador web' width={500} height={500} />
 

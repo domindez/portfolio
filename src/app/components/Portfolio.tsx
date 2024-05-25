@@ -13,7 +13,7 @@ const Portfolio = () => {
 
   return (
     <section className='portfolio' id='portfolio'>
-      <h3 className='section-title'>Portfolio</h3>
+      <h3 className='section-title'>Proyectos</h3>
 
       <div className='project-list'>
         <PortfolioProject

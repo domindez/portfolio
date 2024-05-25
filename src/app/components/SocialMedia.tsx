@@ -2,6 +2,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'next/link'
 import '../styles/social-media.css'
+import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const SocialMedia = () => {
   return (
@@ -15,6 +16,11 @@ const SocialMedia = () => {
         <li>
           <Link href='https://www.linkedin.com/in/domindez/' target='_blank' rel='noreferrer'>
             <FontAwesomeIcon className='social-icon' icon={faLinkedin} />
+          </Link>
+        </li>
+        <li>
+          <Link href='mailto:hola@domindez.com' target='_blank' rel='noreferrer'>
+            <FontAwesomeIcon className='social-icon' icon={faSquareEnvelope} />
           </Link>
         </li>
       </ul>
