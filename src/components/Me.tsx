@@ -8,7 +8,7 @@ const Me = () => {
 
       <div className='text-container'>
         <h1>Daniel Domínguez</h1>
-        <h2>{'< Full Stack Developer />'}</h2>
+        <h2>&lt; Full Stack Developer <span className='slash-color'>/</span>&gt;</h2>
         <Link className='contact-btn' href='mailto:hola@domindez.com'>Contrátame</Link>
       </div>
       <Image src='/img/daniel dominguez.jpg' alt='Daniel Domínguez desarrollador web' width={500} height={500} />
