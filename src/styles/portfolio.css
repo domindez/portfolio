@@ -38,6 +38,15 @@
 						color: #fff;
 						width: fit-content;
 						padding: 3px 10px;
+						transition: 0.3s ease-in-out;
+
+						&:hover {
+							box-shadow: 2px 2px 0px #c9d7f4;
+						}
+
+						&:active {
+							box-shadow: 0px 0px 0px #c9d7f4;
+						}
 					}
 				}
 			}
@@ -54,6 +63,17 @@
 		margin-left: 80px;
 		cursor: pointer;
 		border-radius: 3px;
+		transition: 0.3s ease-in-out;
+
+		&:hover {
+			background-color: #dfeaff;
+			box-shadow: 2px 2px 0px #2f3b53;
+		}
+
+		&:active {
+			background-color: #dfeaff;
+			box-shadow: 0px 0px 0px #2f3b53;
+		}
 	}
 }
 
@@ -72,7 +92,7 @@
 				gap: 0;
 				border-bottom: 1px solid #2f3b53;
 				padding-bottom: 40px;
-				
+
 				.project {
 					border: none;
 
