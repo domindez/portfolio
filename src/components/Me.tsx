@@ -1,20 +1,15 @@
-/* eslint-disable camelcase */
 import Image from 'next/image'
 import '../styles/me.css'
-import SocialMedia from './SocialMedia'
+import Link from 'next/link'
 
 const Me = () => {
   return (
-    <section className='me'>
+    <section className='me' id='me'>
 
       <div className='text-container'>
         <h1>Daniel Domínguez</h1>
-        <h2>{'< web developer />'}</h2>
-
-        {/* <Link href='#' className='project-btn'>
-          <span className='project-btn'>Mis trabajos</span>
-        </Link> */}
-        <SocialMedia />
+        <h2>&lt; Full Stack Developer <span className='slash-color'>/</span>&gt;</h2>
+        <Link className='contact-btn' href='mailto:hola@domindez.com'>Contrátame</Link>
       </div>
       <Image src='/img/daniel dominguez.jpg' alt='Daniel Domínguez desarrollador web' width={500} height={500} />
 
