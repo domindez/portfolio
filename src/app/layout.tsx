@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import '../styles/globals.css'
 import React from 'react'
 import { config } from '@fortawesome/fontawesome-svg-core'
+import { GoogleTagManager } from '@next/third-parties/google'
 
 config.autoAddCss = false
 
@@ -42,6 +43,7 @@ export default function RootLayout ({
   return (
     <html lang='es'>
       <body className={inter.className}>{children}</body>
+      <GoogleTagManager gtmId='GTM-5LF986KH' />
     </html>
   )
 }
