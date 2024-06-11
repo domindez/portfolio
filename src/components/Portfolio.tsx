@@ -43,7 +43,7 @@ const Portfolio = () => {
               name='Pluviometría'
               imgName='cloud'
               url='https://domindez.github.io/pluviometria-castillodelocubin/'
-              text='Un proyecto automatizado que recopila los datos de una estación de lluvia para llevar un registro de precipitaciones.'
+              text='Un proyecto automatizado que recopila los datos de una estación de lluvia para llevar un registro de precipitaciones en Castillo de Locubín.'
             />
 
             <PortfolioProject
